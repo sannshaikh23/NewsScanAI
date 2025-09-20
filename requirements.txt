@@ -1,21 +1,9 @@
-# Web framework
 flask==3.0.3
-
-# Computer vision
-opencv-python==4.9.0.80
-opencv-contrib-python==4.9.0.80  # needed for SURF feature detection
-
-# Deep learning
-tensorflow==2.15.0  # more stable than 2.16.1
-
-# Core scientific computing
+opencv-python==4.9.0
+tensorflow==2.16.1
 numpy==1.26.4
 scikit-learn==1.5.0
-
-# Image processing
 pillow==10.3.0
-pytesseract==0.3.10  # OCR for text extraction from images
-
-# Natural language processing
 nltk==3.9.1
 spacy==3.7.4
+pytesseract==0.3.10
